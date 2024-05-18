@@ -1,0 +1,28 @@
+    Profession-Detection-System
+
+Introduction:
+
+Computer Vision is an aspect of Artificial Intelligence that focuses on enabling computers and software systems to understand and interpret images and scenes. It encompasses a variety of tasks including recognizing objects, in images detecting objects, generating images and enhancing ones.
+
+The field experienced a shift in 2012 when deep learning emerged revolutionizing the way we approach computer vision. This led to the development of algorithms for detecting objects like R CNN, RetinaNet, as well as faster but still precise methods such as SSD and YOLO. 
+
+Convolutional Neural Networks (CNNs) have played a role in driving this progress. They serve as tools for extracting features from images while preserving the spatial relationships between pixels. Unlike approaches that treat individual pixels independently CNNs first simplify the complexity of an image through operations before making predictions based on this processed information.
+
+This concept can be traced back to Yann LeCuns work in 1998 when it was initially applied for classifying digits. In essence CNNs empower computers to analyse images with a level of perception, as humans. With the added sophistication of mathematical techniques.
+
+CNN (Convolutional Neural Networks):
+
+CNN image classifications takes an input image, process it and classify it under certain categories (Example Dog, Cat, Tiger, Lion). Computers sees an input image as array of pixels and it depends on the image resolution.
+Convolution is the first layer to extract features from an input image. Convolution preserves the relationship between pixels by learning image features using small squares of input data. It is a mathematical operation that takes two inputs such as image matrix and a filter or kernel.
+Convolution of an image with different filters can perform operations such as edge detection, blur and sharpen by applying filters.
+
+ReLU stands for Rectified Linear Unit for a non-linear operation. 
+
+The output is ƒ(x) = max (0, x).
+
+ReLU purpose is to introduce non-linearity in our ConvNet. Since, the real-world data would want our ConvNet to learn would be non-negative linear values.
+Pooling layers section would reduce the number of parameters when the images are too large
+Max pooling takes the largest element from the rectified feature map. Taking the largest element could also take the average pooling. Sum of all elements in the feature map call as sum pooling.
+The layer we call as FC layer, we flattened our matrix into vector and feed it into a fully connected layer like neural network.
+
+     
